@@ -5,7 +5,7 @@ package es.edu.ull.algorthms.quicksort;
 
 public class Quicksort  {
     private int[] numbers;
-    private int number;
+    //private int number;
 
     /**
      * 
@@ -17,7 +17,7 @@ public class Quicksort  {
             return;
         }
         this.numbers = values;
-        number = values.length;
+        int number = values.length;
         quicksort(0, number - 1);
     }
 
@@ -27,7 +27,8 @@ public class Quicksort  {
      * @param high
      */
     private void quicksort(int low, int high) {
-        int i = low, j = high;
+        int i = low;
+        int j = high;
         // Get the pivot element from the middle of the list
         int pivot = numbers[low + (high-low)/2];
 
