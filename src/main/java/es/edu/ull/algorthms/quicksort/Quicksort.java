@@ -5,7 +5,6 @@ package es.edu.ull.algorthms.quicksort;
 
 public class Quicksort  {
     private int[] numbers;
-    //private int number;
 
     /**
      * 
