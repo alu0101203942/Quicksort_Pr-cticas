@@ -1,9 +1,16 @@
+/**
+ * @author Laura González González
+ */
 package es.edu.ull.algorthms.quicksort;
 
 public class Quicksort  {
     private int[] numbers;
     private int number;
 
+    /**
+     * 
+     * @param values
+     */
     public void sort(int[] values) {
         // check for empty or null array
         if (values ==null || values.length==0){
@@ -14,6 +21,11 @@ public class Quicksort  {
         quicksort(0, number - 1);
     }
 
+    /**
+     * 
+     * @param low
+     * @param high
+     */
     private void quicksort(int low, int high) {
         int i = low, j = high;
         // Get the pivot element from the middle of the list
@@ -50,6 +62,11 @@ public class Quicksort  {
             quicksort(i, high);
     }
 
+    /**
+     * 
+     * @param i
+     * @param j
+     */
     private void exchange(int i, int j) {
         int temp = numbers[i];
         numbers[i] = numbers[j];
