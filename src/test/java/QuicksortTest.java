@@ -27,7 +27,7 @@ public class QuicksortTest {
     @Test
     public void testNull() {
         Quicksort sorter = new Quicksort();
-        assertNull(sorter.sort(null));
+        sorter.sort(null);
     }
 
     @Test
