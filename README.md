@@ -11,3 +11,7 @@
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=alu0101203942_Quicksort_Pr-cticas&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=alu0101203942_Quicksort_Pr-cticas)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=alu0101203942_Quicksort_Pr-cticas&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=alu0101203942_Quicksort_Pr-cticas)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=alu0101203942_Quicksort_Pr-cticas&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=alu0101203942_Quicksort_Pr-cticas)
+
+
+
+[![CircleCI](https://circleci.com/gh/alu0101203942/Quicksort_Pr-cticas/tree/main.svg?style=svg)](https://circleci.com/gh/alu0101203942/Quicksort_Pr-cticas/tree/main)
